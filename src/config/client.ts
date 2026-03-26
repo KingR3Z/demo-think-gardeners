@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Lisa English", rating: 5, text: "Scott and his team have been maintaining our garden on a weekly basis for nearly 4 years now. We are very happy with their work. Scott is knowledgeable,  reliable and friendly. ", date: "6 years ago" },
+    { name: "LP Marketing", rating: 5, text: "Friendly, reliable and professional gardeners.  We've used at our old home in Epsom and they did us a massive favour by coming to help with our new house in Wimbledon.  Recommended. ", date: "8 years ago" },
+    { name: "Shelley McFarlane", rating: 5, text: "Have been using Think Gardeners for over 5 years, would highly recommend Scott and his team. ", date: "6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
