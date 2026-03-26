@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Lisa English", rating: 5, text: "Scott and his team have been maintaining our garden on a weekly basis for nearly 4 years now. We are very happy with their work. Scott is knowledgeable,  reliable and friendly. ", date: "6 years ago" },
-    { name: "LP Marketing", rating: 5, text: "Friendly, reliable and professional gardeners.  We've used at our old home in Epsom and they did us a massive favour by coming to help with our new house in Wimbledon.  Recommended. ", date: "8 years ago" },
-    { name: "Shelley McFarlane", rating: 5, text: "Have been using Think Gardeners for over 5 years, would highly recommend Scott and his team. ", date: "6 years ago" },
+    { name: "Lisa English", rating: 5, text: "Scott and his team have been maintaining our garden on a weekly basis for nearly 4 years now. We are very happy with their work. Scott is knowledgeable,  reliable and friendly.", date: "6 years ago" },
+    { name: "Shelley McFarlane", rating: 5, text: "Have been using Think Gardeners for over 5 years, would highly recommend Scott and his team.", date: "6 years ago" },
+    { name: "LP Marketing", rating: 5, text: "Friendly, reliable and professional gardeners.  We've used at our old home in Epsom and they did us a massive favour by coming to help with our new house in Wimbledon.  Recommended.", date: "8 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
